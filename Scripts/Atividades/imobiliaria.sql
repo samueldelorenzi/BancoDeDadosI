@@ -40,7 +40,7 @@ create table imagem(
 	id int not null auto_increment primary key,
     id_imovel int not null,
     caminho_imagem varchar(1024), 
-    constraint fk_id_imagem_imovel FOREIGN KEY (id_imovel) REFERENCES imovel(id)
+    constraint fk_id_imagem_imovel foreign key (id_imovel) references imovel(id)
 );
 
 insert into imobiliaria.localidade (localidade) values ("rural"), ("urbano");
@@ -51,11 +51,11 @@ insert into imobiliaria.imovel (nome, descricao, valor, comodos, id_categoria, i
     ("casa da cidade", "casa localizada na cidade", 450000.23, 6, 2, 2, 1),
     ("ap da cidade", "ap no centro", 15000000.93, 10, 1, 2, 2);
 insert into imobiliaria.imagem (id_imovel, caminho_imagem) values 
-	(1, "C:\\Users\\Samuel\\Downloads\\FotoCasaCampo.jpg"),
-    (1, "C:\\Users\\Samuel\\Downloads\\FotoCasaCampo2.jpg"),
-    (1, "C:\\Users\\Samuel\\Downloads\\FotoCasaCampo3.jpg"),
-    (2, "C:\\Users\\Samuel\\Imagens\\FotoCasaCidade.png"),
-    (3, "C:\\Users\\Samuel\\Imagens\\FotosBD\\FotoApCidade.jpg");
+	(1, "c:\\users\\samuel\\downloads\\fotocasacampo.jpg"),
+    (1, "c:\\users\\samuel\\downloads\\fotocasacampo2.jpg"),
+    (1, "c:\\users\\samuel\\downloads\\fotocasacampo3.jpg"),
+    (2, "c:\\users\\samuel\\imagens\\fotocasacidade.png"),
+    (3, "c:\\users\\samuel\\imagens\\fotosbd\\fotoapcidade.jpg");
 
 -- imovel completa
 select * from imobiliaria.imovel;
