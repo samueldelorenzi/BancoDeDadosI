@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-24T00:08:12.166Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="E6HTe2mlZjt1rJ0aslYz" version="24.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-24T00:13:31.797Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="KIaWdsaba8RJdYl7jokZ" version="24.2.8" type="github">
   <diagram name="Página-1" id="o9XWgJTIJZO1FFGt9XVn">
-    <mxGraphModel dx="1290" dy="1349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1843" dy="1573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -238,7 +238,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0jt1SSNZD1qK-PtckVuF-53" value="minicurso" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="900" y="660" width="210" height="180" as="geometry" />
+          <mxGeometry x="940" y="700" width="210" height="180" as="geometry" />
         </mxCell>
         <mxCell id="0jt1SSNZD1qK-PtckVuF-54" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="0jt1SSNZD1qK-PtckVuF-53" vertex="1">
           <mxGeometry y="30" width="210" height="30" as="geometry" />
@@ -513,7 +513,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0jt1SSNZD1qK-PtckVuF-118" value="professor" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1120" y="630" width="230" height="150" as="geometry" />
+          <mxGeometry x="1160" y="700" width="230" height="150" as="geometry" />
         </mxCell>
         <mxCell id="0jt1SSNZD1qK-PtckVuF-119" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="0jt1SSNZD1qK-PtckVuF-118" vertex="1">
           <mxGeometry y="30" width="230" height="30" as="geometry" />
@@ -678,23 +678,23 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0jt1SSNZD1qK-PtckVuF-157" value="inscrito" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="960" y="290" width="180" height="150" as="geometry" />
+          <mxGeometry x="940" y="290" width="210" height="150" as="geometry" />
         </mxCell>
         <mxCell id="0jt1SSNZD1qK-PtckVuF-158" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="0jt1SSNZD1qK-PtckVuF-157" vertex="1">
-          <mxGeometry y="30" width="180" height="30" as="geometry" />
+          <mxGeometry y="30" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0jt1SSNZD1qK-PtckVuF-159" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="0jt1SSNZD1qK-PtckVuF-158" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0jt1SSNZD1qK-PtckVuF-160" value="UniqueID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" parent="0jt1SSNZD1qK-PtckVuF-158" vertex="1">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
+        <mxCell id="0jt1SSNZD1qK-PtckVuF-160" value="id int not null auto_increment" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" parent="0jt1SSNZD1qK-PtckVuF-158" vertex="1">
+          <mxGeometry x="30" width="180" height="30" as="geometry">
+            <mxRectangle width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0jt1SSNZD1qK-PtckVuF-161" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="0jt1SSNZD1qK-PtckVuF-157" vertex="1">
-          <mxGeometry y="60" width="180" height="30" as="geometry" />
+          <mxGeometry y="60" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0jt1SSNZD1qK-PtckVuF-162" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="0jt1SSNZD1qK-PtckVuF-161" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
@@ -702,12 +702,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0jt1SSNZD1qK-PtckVuF-163" value="nome varchar(255)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="0jt1SSNZD1qK-PtckVuF-161" vertex="1">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
+          <mxGeometry x="30" width="180" height="30" as="geometry">
+            <mxRectangle width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0jt1SSNZD1qK-PtckVuF-164" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="0jt1SSNZD1qK-PtckVuF-157" vertex="1">
-          <mxGeometry y="90" width="180" height="30" as="geometry" />
+          <mxGeometry y="90" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0jt1SSNZD1qK-PtckVuF-165" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="0jt1SSNZD1qK-PtckVuF-164" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
@@ -715,21 +715,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0jt1SSNZD1qK-PtckVuF-166" value="contato varchar(50)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="0jt1SSNZD1qK-PtckVuF-164" vertex="1">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
+          <mxGeometry x="30" width="180" height="30" as="geometry">
+            <mxRectangle width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0jt1SSNZD1qK-PtckVuF-167" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="0jt1SSNZD1qK-PtckVuF-157" vertex="1">
-          <mxGeometry y="120" width="180" height="30" as="geometry" />
+          <mxGeometry y="120" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0jt1SSNZD1qK-PtckVuF-168" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="0jt1SSNZD1qK-PtckVuF-167" vertex="1">
+        <mxCell id="0jt1SSNZD1qK-PtckVuF-168" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="0jt1SSNZD1qK-PtckVuF-167" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0jt1SSNZD1qK-PtckVuF-169" value="Row 3" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="0jt1SSNZD1qK-PtckVuF-167" vertex="1">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
+        <mxCell id="0jt1SSNZD1qK-PtckVuF-169" value="id_simposio int not null" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="0jt1SSNZD1qK-PtckVuF-167" vertex="1">
+          <mxGeometry x="30" width="180" height="30" as="geometry">
+            <mxRectangle width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <UserObject label="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 19.8px;&quot;&gt;&lt;font color=&quot;#fcfcfc&quot; face=&quot;Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif&quot;&gt;&lt;b style=&quot;&quot;&gt;Um simpósio será organizado em uma universidade. A organização é de responsabilidade de uma ou mais pessoas. Serãop apresentados neste simpósio vários minicursos, e cada um será ministrado por apenas uma pessoa. Também serão aceitos artigos, sendo que cada um possuirá um tema (banco de dados, redes, compiladores, realidade virtual etc.) Estes artigos foram escritos por no mínimo uma pessoa e não possui limite de número de autores. Cada artigo será encaminhado para uma comissão científica, sendo que há uma comissão científica para cada tema, que é formada por uma ou mais pessoas, que emitirão um parecer sobre o artigo. As pessoas se increverão no simpósio, podendo escolher se querem assistir a minicursos (e quais) e/ou palestras (e quais).&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" placeholders="1" name="Variable" id="0jt1SSNZD1qK-PtckVuF-170">
