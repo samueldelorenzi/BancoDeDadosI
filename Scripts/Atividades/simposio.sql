@@ -90,3 +90,45 @@ create table inscricao(
     constraint fk_id_palestra_inscricao foreign key (id_palestra) references palestra(id),
     constraint fk_id_minicurso_inscricao foreign key (id_minicurso) references minicurso(id)
 );
+
+create table pessoa(
+	id int not null auto_increment primary key,
+    nome varchar(255),
+    idade int,
+    email varchar(255),
+    id_simposio int not null,
+    constraint fk_id_simposio_pessoa foreign key (id_simposio) references simposio(id)
+);
+
+create table palestrante(
+	id_palestra int not null,
+    id_pessoa int not null,
+    constraint pk_palestra_pessoa primary key (id_palestra, id_pessoa),
+    constraint fk_id_pessoa_palestrante foreign key (id_pessoa) references pessoa(id),
+    constraint fk_id_palestra_palestrante foreign key (id_palestra) references palestra(id)
+);
+
+create table professor(
+	id_minicurso int not null,
+    id_pessoa int not null,
+    especializacao varchar(255),
+    constraint pk_minicurso_pessoa primary key (id_minicurso, id_pessoa),
+    constraint fk_id_pessoa_professor foreign key (id_pessoa) references pessoa(id),
+    constraint fk_id_minicurso_professor foreign key (id_minicurso) references minicurso(id)
+);
+
+create table organizador(
+	id_organizacao int not null,
+    id_pessoa int not null,
+    constraint pk_organizacao_pessoa primary key (id_organizacao, id_pessoa),
+    constraint fk_id_pessoa_organizador foreign key (id_pessoa) references pessoa(id),
+    constraint fk_id_organizacao_organizador foreign key (id_organizacao) references organizacao(id)
+);
+
+create table comissionario(
+	id_comissao int not null,
+    id_pessoa int not null,
+    constraint pk_comissao_pessoa primary key (id_comissao, id_pessoa),
+    constraint fk_id_pessoa_comissionario foreign key (id_pessoa) references pessoa(id),
+    constraint fk_id_comissao_comissionario foreign key (id_comissao) references comissao(id)
+);
