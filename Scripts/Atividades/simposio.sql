@@ -1,3 +1,5 @@
+-- Alunos: Alexandre Ribeiro, João Otávio Garipuna, Kauã Camargo, Samuel De Lorenzi Ribeiro
+
 -- criando db
 drop database simposio;
 create database simposio;
@@ -82,11 +84,11 @@ create table minicurso(
 );
 
 create table inscricao(
-	id_palestra int not null,
-    id_minicurso int not null,
+    id int not null auto_increment primary key,
+	id_palestra int,
+    id_minicurso int,
     nome varchar(255),
     data_hora_inscricao datetime,
-    constraint pk_palestra_minicurso primary key (id_palestra, id_minicurso),
     constraint fk_id_palestra_inscricao foreign key (id_palestra) references palestra(id),
     constraint fk_id_minicurso_inscricao foreign key (id_minicurso) references minicurso(id)
 );
@@ -131,4 +133,20 @@ create table comissionario(
     constraint pk_comissao_pessoa primary key (id_comissao, id_pessoa),
     constraint fk_id_pessoa_comissionario foreign key (id_pessoa) references pessoa(id),
     constraint fk_id_comissao_comissionario foreign key (id_comissao) references comissao(id)
+);
+
+create table inscrito(
+	id_inscricao int not null,
+    id_pessoa int not null,
+    constraint pk_inscricao_pessoa primary key (id_inscricao, id_pessoa),
+    constraint fk_id_pessoa_inscrito foreign key (id_pessoa) references pessoa(id),
+    constraint fk_id_inscricao_inscrito foreign key (id_inscricao) references inscricao(id)
+);
+
+create table autor(
+	id_artigo int not null,
+    id_pessoa int not null,
+    constraint pk_artigo_pessoa primary key (id_artigo, id_pessoa),
+    constraint fk_id_pessoa_autor foreign key (id_pessoa) references pessoa(id),
+    constraint fk_id_artigo_autor foreign key (id_artigo) references artigo(id)
 );
