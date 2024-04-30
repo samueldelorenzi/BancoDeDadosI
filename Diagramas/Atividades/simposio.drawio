@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-30T22:24:32.618Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="TrFaWpVohIsW21eLL_VC" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-30T22:39:36.661Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="xb54g1erN1d-KY6wvbCI" version="24.3.1" type="github">
   <diagram name="Página-1" id="o9XWgJTIJZO1FFGt9XVn">
-    <mxGraphModel dx="2459" dy="2176" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2029" dy="2002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -973,7 +973,7 @@
             <mxRectangle width="210" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C2UWZ5wY4UEe_CHKCECq-63" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;startArrow=ERmany;rounded=0;exitX=0.999;exitY=0.171;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#008a00;strokeColor=#005700;" parent="1" source="NLQI-yWYk27etLyGKoLn-101" target="C2UWZ5wY4UEe_CHKCECq-53" edge="1">
+        <mxCell id="C2UWZ5wY4UEe_CHKCECq-63" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;startArrow=ERmany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#008a00;strokeColor=#005700;" parent="1" source="NLQI-yWYk27etLyGKoLn-102" target="C2UWZ5wY4UEe_CHKCECq-53" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="670" y="-340" as="sourcePoint" />
             <mxPoint x="770" y="-440" as="targetPoint" />
