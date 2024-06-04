@@ -1,0 +1,4 @@
+CREATE VIEW QtdProdutos
+AS
+	SELECT * FROM produto AS P
+    WHERE P.COD_PRODUTO IN (1, 2, 3)
