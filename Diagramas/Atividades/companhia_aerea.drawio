@@ -1,9 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2024-06-08T23:59:13.842Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.4.13" etag="VdB8z2pdDEBtRDMY27-l" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-09T00:02:18.179Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="8HudrHkNtYyyHayMrWPW" version="24.4.13" type="github">
   <diagram name="Página-1" id="V6Lc__zGz7hYVcj0mPMY">
-    <mxGraphModel>
+    <mxGraphModel dx="2244" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LLv4eSpegkeKVJ9fUBWc-1" value="&lt;div&gt;&lt;b&gt;Esta atividade vale como nossa Atividade Prática Avaliativa. Deve ser desenvolvida em grupo.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Construa um modelo de ER para um sistema solicitado por uma empresa de transporte aéreo.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;A empresa deseja armazenar informações sobre:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- As aeronaves que possui (tipo de aeronaves, número de poltronas).&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- Os vôos (aeroporto de origem, aeroporto de destino, horário de saída, horário previsto para chegada, escalas, aeroportos de saída de cada escala e horário de saída de cada escala).&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- Horários disponíveis, poltronas disponíveis e sua localização (janela e corredor ou direita e esquerda).&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- Informações sobre os clientes preferenciais da empresa para uma possível mala-direta.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;---&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Você deve entregar:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- O arquivo em imagem do diagrama de Entidade/Relacionamento;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- O script.sql do código de criação do BD (Tabelas, Constraints, etc.)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- O seed.sql do script de população dos dados nas tabelas;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- Os scripts de Consulta que seja capaz de atender os seguintes relatórios:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;a) Listagem de Aeronaves ordenadas por tipo;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;b) Relatório de Vôos das Aeronaves por período (dia/semana/mês);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;c) Listagem de vôos que fazem escala em um determinado local;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;d) Exibição de poltronas disponíveis em um determinado vôo/avião;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-380" width="1070" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="LLv4eSpegkeKVJ9fUBWc-3" value="aeronave" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="360" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="LLv4eSpegkeKVJ9fUBWc-4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="LLv4eSpegkeKVJ9fUBWc-3">
+          <mxGeometry y="30" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LLv4eSpegkeKVJ9fUBWc-5" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="LLv4eSpegkeKVJ9fUBWc-4">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LLv4eSpegkeKVJ9fUBWc-6" value="id int not null auto_increment" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="LLv4eSpegkeKVJ9fUBWc-4">
+          <mxGeometry x="30" width="180" height="30" as="geometry">
+            <mxRectangle width="180" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LLv4eSpegkeKVJ9fUBWc-7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="LLv4eSpegkeKVJ9fUBWc-3">
+          <mxGeometry y="60" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LLv4eSpegkeKVJ9fUBWc-8" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="LLv4eSpegkeKVJ9fUBWc-7">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LLv4eSpegkeKVJ9fUBWc-9" value="tipo varchar(255)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="LLv4eSpegkeKVJ9fUBWc-7">
+          <mxGeometry x="30" width="180" height="30" as="geometry">
+            <mxRectangle width="180" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LLv4eSpegkeKVJ9fUBWc-10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="LLv4eSpegkeKVJ9fUBWc-3">
+          <mxGeometry y="90" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LLv4eSpegkeKVJ9fUBWc-11" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="LLv4eSpegkeKVJ9fUBWc-10">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LLv4eSpegkeKVJ9fUBWc-12" value="poltronas int" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="LLv4eSpegkeKVJ9fUBWc-10">
+          <mxGeometry x="30" width="180" height="30" as="geometry">
+            <mxRectangle width="180" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LLv4eSpegkeKVJ9fUBWc-13" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="LLv4eSpegkeKVJ9fUBWc-3">
+          <mxGeometry y="120" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LLv4eSpegkeKVJ9fUBWc-14" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="LLv4eSpegkeKVJ9fUBWc-13">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LLv4eSpegkeKVJ9fUBWc-15" value="modelo varchar(255)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="LLv4eSpegkeKVJ9fUBWc-13">
+          <mxGeometry x="30" width="180" height="30" as="geometry">
+            <mxRectangle width="180" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
