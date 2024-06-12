@@ -28,15 +28,13 @@ inner join aeroporto as apd on v.id_aeroporto_destino = apd.id
 where month(saida) = month("2024-06-11");
 
 -- c) Listagem de vôos que fazem escala em um determinado local;
-
 select v.id as id_voo, an.modelo as modelo_aeronave, apo.nome as origem, apd.nome as destino, v.saida, v.previsao_chegada
 from voo as v
 inner join escala as e on v.id = e.id_voo
 inner join aeronave as an on v.id_aeronave = an.id
 inner join aeroporto as apo on v.id_aeroporto_origem = apo.id
 inner join aeroporto as apd on v.id_aeroporto_destino = apd.id
-where e.id_aeroporto in (select id from aeroporto where pais = "Suíça");
+where e.id_aeroporto in (select id from aeroporto where pais = "Brasil");
 
 -- d) Exibição de poltronas disponíveis em um determinado vôo/avião;
-
-select id_aeronave, disponivel, localizacao from poltrona where id_aeronave = 1 and disponivel = true;
+select id_aeronave, localizacao from poltrona where id_aeronave = 2 and disponivel = true;
